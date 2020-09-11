@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wine Shops</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    
+    
+</head>
+<body>
+    <div id = "wrapper">
+        <div id = "header">
+                <div id = "subheader">
+                    <div class="container">
+                    <p>Wine website</p>
+                    <a href="#">Product</a> 
+                    <a href="#">Customer</a> 
+                    <a href="#">Sale</a>
+                    <a href="#">Help</a>  
+                    </div>
+                </div>
+                <!--main-header-->
+                <div id = "main-header">
+                    <div id = "logo">
+                    <span id = "ist">Wine</span><span id = "iist">shop.com</span>
+                    </div>
+                    <div id = 'search'>
+                        <form action="">
+                            <input class = "search-area" type="text" name = "text" placeholder="Search here">
+                            <input class = "search-btn" type="submit" name="submit" value="SEARCH">
+                        </form>
+                    </div>
+                    <div id = "user-menu">
+                        <li><a href="#">&#128722;</a></li>
+                        <li><a href="#">Login</a></li>
+                    </div>
+                </div>
+        </div>
+        <div id = "navigation">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">New Wine</a>
+                <a href="#">Deals</a>
+                <a href="#">Vouchers</a>
+                <a href="#">News</a>
+            </nav>
+        </div>
+        <div id = "slider">
+            <ul class="bxslider">
+                <li><img src="images/img1.jpg"></li>
+                <li><img src="images/img2.jpg"></li>
+                <li><img src="images/img3.jpg"></li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+    </script>
+    <script src="js/my.js"></script>
+</body>
+</html>
